@@ -61,5 +61,17 @@ Just at the end of the exam. You will see a detailed score, and you'll receive a
 - ### [GitHub Universe Workshop](https://github.com/githubuniverseworkshops)
 ***
 
+Environment variables
+The following environment variables allows you to control the configuration parameters.
+
+Name	Description	Required/Default value
+RUNNER_REPOSITORY_URL	The runner will be linked to this repository URL	Required if RUNNER_ORGANIZATION_URL is not provided
+RUNNER_ORGANIZATION_URL	The runner will be linked to this organization URL. (Self-hosted runners API for organizations is currently in public beta and subject to changes)	Required if RUNNER_REPOSITORY_URL is not provided
+GITHUB_ACCESS_TOKEN	Personal Access Token. Used to dynamically fetch a new runner token (recommended, see below).	Required if RUNNER_TOKEN is not provided.
+RUNNER_TOKEN	Runner token provided by GitHub in the Actions page. These tokens are valid for a short period.	Required if GITHUB_ACCESS_TOKEN is not provided
+RUNNER_WORK_DIRECTORY	Runner's work directory	"_work"
+RUNNER_NAME	Name of the runner displayed in the GitHub UI	Hostname of the container
+RUNNER_LABELS	Extra labels in addition to the default: 'self-hosted,Linux,X64' (based on your OS and architecture)	""
+RUNNER_REPLACE_EXISTING	"true" will replace existing runner with the same name, "false" will use a random name if there is conflict	"true"
 
 ![plot](./media/force.jpg)
