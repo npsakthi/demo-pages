@@ -1,5 +1,7 @@
 # GITHUB CERTIFICATIONS
 
+[![Publish GitHub Actions Artifacts Example](https://github.com/npsakthi/demo-pages/actions/workflows/main.yml/badge.svg)](https://github.com/npsakthi/demo-pages/actions/workflows/main.yml)
+
 ![plot](./media/socialcard.png)
 
 ### There appears to be three new GitHub Certifications for Partners:
