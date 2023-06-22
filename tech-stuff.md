@@ -1,0 +1,3 @@
+- [Implementing dynamic filtering on joined queries using JPA specification and criteria API](https://www.sixt.tech/dynamic-query-with-jpa-criteria-support)
+- [Dynamic query generator](https://github.com/vishal-attarde/dynamic-query-generator)
+- [Writing Github README](https://medium.com/analytics-vidhya/writing-github-readme-e593f278a796)
